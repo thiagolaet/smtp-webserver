@@ -1,0 +1,29 @@
+{% extends "template.html" %}
+
+{% block body %}
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Assunto</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%for i in range(0,5)%}
+      <tr>
+        <th scope="row">1</th>
+        <td>nome</td>
+        <td>luiz</td>
+      </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endblock %}
+    
+
+
+
+
+
